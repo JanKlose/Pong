@@ -17,6 +17,7 @@ public class Draw extends JLabel {
         g.fillRect(0,0, Var.screenwidth, Var.screnheigth);
 
         g.setColor(Color.WHITE);
+
         for(int i = 0; i <= 30; i++){
             g.fillRect(Var.screenwidth/2 -5, i*20, 10, 10);
 
@@ -27,6 +28,9 @@ public class Draw extends JLabel {
 
         g.drawString(""+ Var.playerPoints, Var.screenwidth/2-95, 75);
         g.drawString(""+ Var.ggnPoints, Var.screenwidth/2+50, 75);
+
+        g.fillRect(Var.ballx, Var.bally, 20, 20);
+
         repaint();
 
         }

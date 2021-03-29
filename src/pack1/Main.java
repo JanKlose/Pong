@@ -9,5 +9,6 @@ public class Main {
         new Movement();
         new BallMovement();
         new BallKollision();
+        new GegnerMovement();
     }
 }
