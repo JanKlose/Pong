@@ -3,6 +3,8 @@ package pack1;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
+//simple Method to handle Player movement.
+
 public class KeyHandler implements KeyListener {
 
 
